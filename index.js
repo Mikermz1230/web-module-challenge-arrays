@@ -1,7 +1,7 @@
 /*REMEMBER TO RETURN ALL OF THE ANSWERS ON THESE TASKS, IF YOU DON'T, THE AUTOGRADER WILL NOT WORK*/
 
 /* 👀 This is your data ⬇ */
-const originalFlavors = [
+var originalFlavors = [
     "Banana Nut Fudge",
     "Black Walnut",
     "Burgundy Cherry",
@@ -174,9 +174,18 @@ Use the filterByWord function below to do the following:
     DO NOT USE ADVANCED ARRAY METHODS (i.e. .filter) to solve this problem. 
 */
 
-function filterByWord(/*your code here*/){
-    /*your code here*/
-}
+let copyFlavors = [...originalFlavors];
+
+function filterByWord(copyFlavors){
+    for(let i = 0; i<copyFlavors.length; i++){
+        if (copyFlavors[i].includes("chocolate")) {
+            return (`${filterByWord[i]}has the word chocolate in it`);
+            
+        }
+    }
+
+    }
+
 
 
 /* 💪💪💪💪💪🧁🍦🍨 STRETCH 🍨🍦🍫💪💪💪💪💪*/ 
