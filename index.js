@@ -151,7 +151,7 @@ function removeFlavorByName(yum){
     yum.splice(2,12,"Burgundy Cherry","Coffee Candy");
      {return yum.length}
  }
-1
+
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
